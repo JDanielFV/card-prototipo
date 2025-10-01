@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { useParams } from 'react-router-dom';
+import datos from '../data/datos.json';
 
 const CardWrapper = styled.div`
   background: rgba(255, 255, 255, 0.25);
@@ -37,13 +38,23 @@ const Subtitle = styled.p`
   }
 `;
 
-const Card = () => (
-  <CardWrapper>
-    <Nombre>Víctor Humberto Benítez González</Nombre>
-    <hr />
-    <Subtitle>Titular Notaría 136</Subtitle>
-    <Subtitle>Metepec, Edo. de Méx.</Subtitle>
-  </CardWrapper>
-);
+
+const Card = () => {
+  const { id } = useParams(); // El id de la URL, como /1, /2, etc.
+  const currentData = {
+    nombre: datos.nombre[id],
+    notaria: datos.notaria[id],
+    direccion: datos.direccion[id],
+  };
+
+  return (
+    <CardWrapper>
+      <Nombre>{currentData.nombre || 'Nombre no encontrado'}</Nombre>
+      <hr />
+      <Subtitle>{currentData.notaria || 'Notaría no encontrada'}</Subtitle>
+      <Subtitle>{currentData.direccion || 'Dirección no encontrada'}</Subtitle>
+    </CardWrapper>
+  );
+};
 
 export default Card;

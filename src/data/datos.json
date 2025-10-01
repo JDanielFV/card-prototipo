@@ -1,0 +1,74 @@
+{
+  "nombre": {
+    "1": "LIC. ROSALBA RODRÍGUEZ ALMARAZ",
+    "2": "LIC. SERGIO ROBERTO MAÑÓN DÍAZ",
+    "4": "MTRO. JUAN CARLOS SÁNCHEZ MÁRQUEZ",
+    "5": "LIC. GABRIEL ESCOBAR Y EZETA",
+    "6": "DR. ERICK BENJAMÍN SANTÍN BECERRIL",
+    "7": "LIC. GABRIELA PALOMA LECHUGA VALDÉS",
+    "8": "LIC. FERNANDO ANTONIO VELASCO TURATI",
+    "9": "LIC. JORGE CLAUDIO IBARROLA MURO",
+    "10": "LIC. ROBERTO MENDOZA NAVA",
+    "11": "LIC. SILVIA ELENA MEZA GEREZ"
+  },
+  "notaria": {
+    "1": "a",
+    "2": "a",
+    "4": "a",
+    "5": "a",
+    "6": "a",
+    "7": "a",
+    "8": "a",
+    "9": "a",
+    "10": "a",
+    "11": "a"
+  },
+  "direccion": {
+    "1": "a",
+    "2": "a",
+    "4": "a",
+    "5": "a",
+    "6": "a",
+    "7": "a",
+    "8": "a",
+    "9": "a",
+    "10": "a",
+    "11": "a"
+  },
+  "tarjeta": {
+    "1": "tarjeta.com/id=?1",
+    "2": "tarjeta.com/id=?1",
+    "4": "tarjeta.com/id=?1",
+    "5": "tarjeta.com/id=?1",
+    "6": "tarjeta.com/id=?1",
+    "7": "tarjeta.com/id=?1",
+    "8": "tarjeta.com/id=?1",
+    "9": "tarjeta.com/id=?1",
+    "10": "tarjeta.com/id=?1",
+    "11": "tarjeta.com/id=?1"
+  },
+  "ubicación": {
+    "1": "mapa.com/id=?1",
+    "2": "mapa.com/id=?1",
+    "4": "mapa.com/id=?1",
+    "5": "mapa.com/id=?1",
+    "6": "mapa.com/id=?1",
+    "7": "mapa.com/id=?1",
+    "8": "mapa.com/id=?1",
+    "9": "mapa.com/id=?1",
+    "10": "mapa.com/id=?1",
+    "11": "mapa.com/id=?1"
+  },
+  "nombramiento": {
+    "1": "nombramiento.com/id=?1",
+    "2": "nombramiento.com/id=?1",
+    "4": "nombramiento.com/id=?1",
+    "5": "nombramiento.com/id=?1",
+    "6": "nombramiento.com/id=?1",
+    "7": "nombramiento.com/id=?1",
+    "8": "nombramiento.com/id=?1",
+    "9": "nombramiento.com/id=?1",
+    "10": "nombramiento.com/id=?1",
+    "11": "nombramiento.com/id=?1"
+  }
+}
