@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { useParams } from 'react-router-dom';
 
 const CardWrapper = styled.div`
   background: rgba(255, 255, 255, 0.25);
@@ -13,7 +14,7 @@ const CardWrapper = styled.div`
   margin: 20px;
 `;
 
-const Title = styled.h1`
+const Nombre = styled.h1`
   font-size: 2.5em;
   font-weight: bold;
   margin: 0;
@@ -38,7 +39,7 @@ const Subtitle = styled.p`
 
 const Card = () => (
   <CardWrapper>
-    <Title>Víctor Humberto Benítez González</Title>
+    <Nombre>Víctor Humberto Benítez González</Nombre>
     <hr />
     <Subtitle>Titular Notaría 136</Subtitle>
     <Subtitle>Metepec, Edo. de Méx.</Subtitle>

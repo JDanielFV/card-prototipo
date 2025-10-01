@@ -48,6 +48,13 @@ const LogoContainer = styled.div`
     margin-top: 20px;
   }
 `;
+const Notaria = styled.p`
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff;
+  text-shadow: 0 4px 12px rgba(0,0,0,0.45);
+`;
 
 const Buttons = styled.a``
 
@@ -99,10 +106,10 @@ function App() {
       {showSplash && <Splash />}
       {!showSplash && (
         <AppWrapper>
-          <img src="/notaria-logo.png" alt="Notaría 136" style={{ maxWidth: '230px', margin: '20px' }} />
+          <Notaria>Notaría 136</Notaria> 
           <Card />
           <ButtonContainer>
-            <Button href="https://colegiodenotariosedomex.org.mx/tarjeta-notario?id=6" rel="noopener noreferrer">Tarjeta de contacto</Button>
+            <Button href="https://colegiodenotariosedomex.org.mx/tarjeta-notario?id=6" target="_blank" rel="noopener noreferrer">Tarjeta de contacto</Button>
             <div>
               <Button href="https://maps.app.goo.gl/ygZrxsZFaU1eJcrP8" target="_blank" rel="noopener noreferrer">Ubicación</Button>
               <Button href="https://legislacion.edomex.gob.mx/sites/legislacion.edomex.gob.mx/files/files/pdf/gct/2005/abr064.pdf" target="_blank" rel="noopener noreferrer">Nombramiento</Button>
