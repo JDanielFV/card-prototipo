@@ -52,8 +52,8 @@ const Notaria = styled.p`
   font-size: 3em;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #fff;
-  text-shadow: 0 4px 12px rgba(0,0,0,0.45);
+  color: #5b5b5bff;
+  // text-shadow: 0 4px 12px rgba(0,0,0,0.45);
 `;
 
 const Buttons = styled.a``
@@ -123,7 +123,6 @@ function App() {
       )}
     </>
   );
-  okasdjfokasdjfoijasdkjfoa
 }
 
 export default App;
