@@ -42,9 +42,9 @@ const Subtitle = styled.p`
 const Card = () => {
   const { id } = useParams(); // El id de la URL, como /1, /2, etc.
   const currentData = {
-    nombre: datos.nombre[id],
-    notaria: datos.notaria[id],
-    direccion: datos.direccion[id],
+    nombre: datos.Nombre[id],
+    notaria: datos.Notaria[id],
+    direccion: datos.Direccion[id],
   };
 
   return (

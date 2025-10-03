@@ -3,7 +3,7 @@ body {
   font-family: outfit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('/background.png');
+  background-image: url('/background.gif');
   background-size: cover;
   background-position: center;
   height: 100vh;
